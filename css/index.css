@@ -39,6 +39,11 @@ a {
     border-radius: 1rem;
     box-shadow: 1px 1px 5px black;
     padding: 10px;
+    
+}
+
+.kontakt p {
+    font-size: 20px;
 }
 
 .dane ul {
