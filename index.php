@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect(' sql7.freesqldatabase.com', 'sql7758516', 'JF8Yfq5Mjm', 'sql7758516');
+$con = mysqli_connect('localhost', 'root', '', 'sklep1');
 if(isset($_POST['wyslij']))
 {    
      $imie = $_POST['imie'];
