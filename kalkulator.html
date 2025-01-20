@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/kalkulator.css">
 </head>
 <body>
     <div class="kalkulator">
-        <p id="wynik"></p>
-        <input type="button" value="+">
-        <input type="button" value="-">
-        <input type="button" value="*">
-        <input type="button" value="/">
-        <input type="button" value="=">
-        <br>
-        <input type="button" value="9">
-        <input type="button" value="8">
-        <input type="button" value="7">
-        <br>
-        <input type="button" value="6">
-        <input type="button" value="5">
-        <input type="button" value="4">
-        <br>
-        <input type="button" value="3">
-        <input type="button" value="2">
-        <input type="button" value="1">
-        <br>
+        <input type="text" id="display" disabled>
+        <div class="przyciski">
+            <button onclick="dodajLiczbę('1')">1</button>
+            <button onclick="dodajLiczbę('2')">2</button>
+            <button onclick="dodajLiczbę('3')">3</button>
+            <button onclick="ustawOperację('+')">+</button>
+            <button onclick="dodajLiczbę('4')">4</button>
+            <button onclick="dodajLiczbę('5')">5</button>
+            <button onclick="dodajLiczbę('6')">6</button>
+            <button onclick="ustawOperację('-')">-</button>
+            <button onclick="dodajLiczbę('7')">7</button>
+            <button onclick="dodajLiczbę('8')">8</button>
+            <button onclick="dodajLiczbę('9')">9</button>
+            <button onclick="ustawOperację('*')">*</button>
+            <button onclick="wyczyśćWyświetlacz()">C</button>
+            <button onclick="dodajLiczbę('0')">0</button>
+            <button onclick="usuńOstatnią()">DEL</button>
+            <button onclick="obliczWynik()">=</button>
+            <button onclick="ustawOperację('/')">/</button>
+        </div>
+    </div>
+    <script>
+        
+    </script>
 </body>
 </html>
