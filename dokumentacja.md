@@ -22,7 +22,7 @@ Projekt wykorzystuje następujące technologie:
 
 HTML: Struktura stron internetowej. (60.5%)
 
-CSS: Stylizacja i układ elementów na stronach. (24.2%)
+CSS: Stylizacja i układ elementów na stronie. (24.2%)
 
 PHP: Obsługa logiki po stronie serwera, np. przetwarzanie formularzy rejestracyjnych. (15.3%)
 
