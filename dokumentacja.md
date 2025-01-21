@@ -20,7 +20,7 @@ TECHNOLOGIE I JĘZYKI PROGRAMOWANIA
 
 Projekt wykorzystuje następujące technologie:
 
-HTML: Struktura stron internetowych. (60.5%)
+HTML: Struktura stron internetowej. (60.5%)
 
 CSS: Stylizacja i układ elementów na stronach. (24.2%)
 
