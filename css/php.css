@@ -44,3 +44,15 @@ a {
 .stopka span {
     font-weight: bold;
 }
+
+.wyslane {
+    text-align: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 2rem;
+    padding: 15px;
+    margin-bottom: 10px;
+}
